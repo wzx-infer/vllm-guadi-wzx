@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.so
+*.o
+
+# Benchmark outputs
+results/
+*.json
+*.prof
+synapse_trace/
+
+# Model weights
+models/
+*.bin
+*.safetensors
+
+# IDE
+.vscode/
+.DS_Store
